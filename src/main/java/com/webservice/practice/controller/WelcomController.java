@@ -14,7 +14,7 @@ public class WelcomController {
 //	String msg;
 @GetMapping("/welcome")
 public String welcome() {
-	return "good morning";
+	return "good morning mamatha";
 }
 @GetMapping("/invokeapi")
 public ResponseEntity<String> invokeRest() {
